@@ -1,8 +1,8 @@
 # Project
 ---
-| Name | GregBasera.github.io |
+| Name | fSNMP |
 |---|---|
-| Description | This is my Portfolio, hosted in GitHub Pages. I wish all deployment is as easy as deploying in GitHub Pages :( |
+| Description | A jerry-rigged implementation of a Simple Network Management Protocol. This is a bonus activity offered in my DataCom course. I was just in awe on the number of possibilities applications like this have. |
 | Author | Basera, Greg Emerson A. (gbasera@gbox.adnu.edu.ph) |
 
 # Environment
@@ -19,9 +19,9 @@ The author would advice anyone who plan to use this software to run it in a Linu
 |---|---|
 | whoami | installed by default |
 | uptime | installed by default |
-| ifconfig | sudo apt get install ifconfig |
-| iostat | sudo apt get install iostat |
-| sensors | sudo apt get install lm-sensors |
+| ifconfig | $ sudo apt get install ifconfig |
+| iostat | $ sudo apt get install iostat |
+| sensors | $ sudo apt get install lm-sensors |
 
 # Let's play
 ---
@@ -50,5 +50,5 @@ The author would advice anyone who plan to use this software to run it in a Linu
   * [port] --> the port number the Monitor is initialized in.
 
 
-4. Repeat number 3 for all agents.
-5. The Agents will submit a report every 10 seconds, the Monitor on the other hand will display the reports on the terminal 
+4. Repeat item 3 for all agents.
+5. The Agents will submit a report every 10 seconds, the Monitor on the other hand will display the reports on the terminal
